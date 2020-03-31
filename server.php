@@ -21,7 +21,7 @@ $location="";
 
 
 // connect to the database
-$db = mysqli_connect("localhost", "root", "Wiggels1", "SignUps");
+$db = mysqli_connect("localhost", "root", "-----", "SignUps");
 if (!$db)
 {
   exit("Verbindungsfehler: ".mysqli_connect_error());
