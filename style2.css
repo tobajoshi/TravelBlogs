@@ -1,0 +1,154 @@
+body {
+    background: url("pictures/schreibtisch image.png ") no-repeat;
+    /*background: #6F9A8D;*/
+    font-size: 120%;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Navbar container */
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    height: 6%;
+}
+
+
+/* Links inside the navbar */
+
+.navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.headtitle {
+    float: right;
+    font-size: 35px;
+    color: white;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+
+/* The dropdown container */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+/* Dropdown button */
+
+.dropdown .dropbtn {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+
+/* Add a red background color to navbar links on hover */
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+
+/* Dropdown content (hidden by default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+/* Add a grey background color to dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.main {
+    width: 100%;
+    height: 94%;
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-rows: 10% 20% 20% 20% 20% 10%;
+}
+
+.specific {
+    width: 100%;
+    height: 94%;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+.navbargrid {
+    width: 100%;
+    height: 6%;
+    display: grid;
+    grid-template-columns: 5% 10% 10% 10% 10% 10% 10% 10% 10% 10% 5%;
+    grid-template-rows: 10% 80% 10%;
+}
+
+.nicelinks {
+    text-decoration: none;
+    color: black;
+}
+
+.profilicon {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.feedicon {
+    height: 40px;
+    width: 40px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
